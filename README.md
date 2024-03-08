@@ -9,8 +9,8 @@ curl -X GET http://localhost:8012/tasks
 ```
 
 # How to build docker image and docker file and how to push it to docker hub:
-docker build -t gocrud:v02 .
+docker build -t ameyster786/gocrud:latest .
 
-docker run -p 8012:8012 gocrud:v02
+docker run -p 8012:8012 ameyster786/gocrud:latest
 
-docker run -p 8012:8012 maziar/gocrud:v02
+docker run -p 8012:8012 ameyster786/gocrud:latest
